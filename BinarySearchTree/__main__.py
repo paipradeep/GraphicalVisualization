@@ -9,7 +9,7 @@ tree = BST()
 z = 0
 #fp = open("image.gv","w+")
 while True:
-	choice = int(raw_input("Enter Choice:\n\t1-Insert Node\n\t2-Inorder\n\t3-Preorder\n\t4-Post order\n\t5- find height\n\t6-Draw tree"))
+	choice = int(raw_input("Enter Choice:\n\t1-Insert Node\n\t2-Inorder\n\t3-Preorder\n\t4-Post order\n\t5- find height\n\t6-Draw tree\n\t7-Reverse tree"))
 	#if choice in dictionary:
 	if(choice == 1):
 		data = int(raw_input("\nEnter data to be inserted"))
@@ -35,6 +35,8 @@ while True:
 			sys.exit()
 		else:
 			print("Tree is empty.")
+	elif(choice == 7):
+		tree.reverse(tree.root)
 	else:
 		sys.exit()
 		
