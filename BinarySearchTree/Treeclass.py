@@ -71,6 +71,15 @@ class BST:
 			return -1
 		return 1+max(self.height(root.left),self.height(root.right))
 	
+	def reverse(self,root):
+		if(root == null):
+			return
+		temp = root.left
+		root.left = root.right
+		root.right = temp
+		self.reverse(root.left)
+		self.reverse(root.right)
+	
 			
 		
 
