@@ -1,0 +1,23 @@
+// AVL tree
+digraph AVL_Tree {
+	4
+	4 -> 2 [color=blue]
+	4 -> 5 [color=blue]
+	2 -> 1 [color=blue]
+	2 -> 3 [color=blue]
+	Leaf1 [shape=point]
+	1 -> Leaf1 [color=red]
+	Leaf2 [shape=point]
+	1 -> Leaf2 [color=red]
+	Leaf11 [shape=point]
+	3 -> Leaf11 [color=red]
+	Leaf12 [shape=point]
+	3 -> Leaf12 [color=red]
+	Leaf11 [shape=point]
+	5 -> Leaf11 [color=red]
+	5 -> 6 [color=blue]
+	Leaf22 [shape=point]
+	6 -> Leaf22 [color=red]
+	Leaf23 [shape=point]
+	6 -> Leaf23 [color=red]
+}

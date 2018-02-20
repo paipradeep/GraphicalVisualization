@@ -1,0 +1,23 @@
+// Binary tree
+digraph Unbalanced_Tree {
+	1
+	Leaf1 [shape=point]
+	1 -> Leaf1 [color=red]
+	1 -> 2 [color=blue]
+	Leaf12 [shape=point]
+	2 -> Leaf12 [color=red]
+	2 -> 3 [color=blue]
+	Leaf23 [shape=point]
+	3 -> Leaf23 [color=red]
+	3 -> 4 [color=blue]
+	Leaf34 [shape=point]
+	4 -> Leaf34 [color=red]
+	4 -> 5 [color=blue]
+	Leaf45 [shape=point]
+	5 -> Leaf45 [color=red]
+	5 -> 6 [color=blue]
+	Leaf56 [shape=point]
+	6 -> Leaf56 [color=red]
+	Leaf57 [shape=point]
+	6 -> Leaf57 [color=red]
+}
